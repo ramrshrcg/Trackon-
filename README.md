@@ -13,4 +13,4 @@ A React.js clone of the Trackon GPS website (https://www.trackon-gps.com/), buil
 - **Modern ES6+** - JavaScript features
 
 ## Original Website
-- [text](https://www.trackon-gps.com/)
+- [https://www.trackon-gps.com/](https://www.trackon-gps.com/)
