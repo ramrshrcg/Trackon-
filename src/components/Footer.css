@@ -1,0 +1,131 @@
+/* Footer Styles */
+.footer {
+    background: #2c3e50;
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.footer-content {
+    margin-bottom: 30px;
+}
+
+.footer-main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.footer-brand img {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-brand p {
+    color: #bdc3c7;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-column h4 {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: white;
+}
+
+.app-downloads-footer {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.app-downloads-footer img {
+    height: 40px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.social-media a {
+    color: #bdc3c7;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #e74c3c;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #34495e;
+}
+
+.logistic-partners {
+    text-align: center;
+}
+
+.logistic-partners h4 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.logistic-partners img {
+    height: 30px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .footer-main {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .social-media {
+        flex-wrap: wrap;
+    }
+}

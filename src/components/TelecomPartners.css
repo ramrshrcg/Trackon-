@@ -1,0 +1,37 @@
+/* Telecom Partners Section Styles */
+.telecom-partners {
+    padding: 80px 0;
+    background: white;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.partners-logos img {
+    height: 80px;
+    transition: transform 0.3s ease;
+}
+
+.partners-logos img:hover {
+    transform: scale(1.1);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .telecom-partners {
+        padding: 60px 0;
+    }
+
+    .partners-logos {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .partners-logos img {
+        height: 60px;
+    }
+}

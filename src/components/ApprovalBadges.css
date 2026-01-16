@@ -1,0 +1,104 @@
+/* Approval Badges Styles */
+.approval-badges {
+    padding: 40px 0;
+    background: #f8f9fa;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .approval-badges {
+        padding: 60px 0;
+    }
+}
+
+.approval-badges h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .approval-badges h2 {
+        font-size: 2.5rem;
+    }
+}
+
+.approval-badges p {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+    .approval-badges p {
+        font-size: 1.1rem;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+    .badges {
+        gap: 50px;
+        padding: 0;
+    }
+}
+
+.badge {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+@media (min-width: 768px) {
+    .badge {
+        padding: 30px;
+        flex: none;
+    }
+}
+
+.badge:hover {
+    transform: translateY(-5px);
+}
+
+.badge img {
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .badge img {
+        height: 80px;
+    }
+}
+
+.badge span {
+    display: block;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+    .badge span {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,47 @@
+/* Clients Section Styles */
+.clients {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    align-items: center;
+}
+
+.client-logo {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.client-logo:hover {
+    transform: translateY(-5px);
+}
+
+.client-logo img {
+    max-width: 120px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .clients {
+        padding: 60px 0;
+    }
+
+    .clients-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .client-logo {
+        padding: 15px;
+    }
+}
